@@ -18,9 +18,7 @@
 
 #import <UIKit/UIKit.h>
 
-#if SWIFT_PACKAGE
-#import "../FBSDKCoreKit.h"
-#else
+#if !SWIFT_PACKAGE
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #endif
 
